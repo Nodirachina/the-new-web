@@ -1,0 +1,91 @@
+@import url(fonts.css);
+
+.header-img{
+    width: 100%;
+}
+
+.header-content{
+    display: flex;
+}
+
+.header-content__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-content__first{
+    width: 25%; 
+    background: #B71C1C;
+    padding-bottom: 15px;
+}
+
+.header-content__news{
+    padding: 15px 15px 0 15px;
+}
+
+.header-content__image{
+    display: flex;
+}
+
+.header-content__img{
+    width: 100%;
+    object-fit: cover;
+    height: 40vh;
+    display: block;
+    
+}
+
+.header-content__title{
+    color: #FFF;
+    font-family: 'RB';
+    font-size: 19px;
+    line-height: 22px;
+}
+
+.header-content__text{
+    margin-top: 8px;
+    color: #EBEBEB;
+    font-family: 'RR';
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.header-content__second{
+    width: 25%;
+    background: #6A1B9A;
+}
+
+.header-content__third{
+    width: 25%;
+    background: #303F9F;
+    padding-bottom: 15px;
+}
+
+.header-third__news{   
+    padding: 15px;
+}
+
+.header-content__fourth{
+    width: 25%;
+    background: #00695C;
+}
+
+/*  **** Media start **** */
+@media (max-width: 1000px) {
+
+    .header-content{
+    flex-wrap: wrap;
+    }
+    
+}
+
+
+
+
+/*  **** Media end **** */
+
+
+
+
+

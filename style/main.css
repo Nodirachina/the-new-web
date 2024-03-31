@@ -1,0 +1,76 @@
+@import url(fonts.css);
+
+
+.main-theme{
+    margin: 15px;
+display: flex;
+justify-content: center;
+color: rgb(58, 56, 56);
+font-family: 'RB';
+font-size: 22px;
+line-height: 26px;
+text-align: left;
+}
+
+.main-content__box{
+    background: rgb(237, 237, 237); 
+}
+
+.main-box{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.main-box__left{
+max-width: 555px;
+width: 100%;
+height: 531px;
+}
+
+.main-left__img{
+width: 100%;
+background: url(cq5dam.web.1280);
+}
+
+.main-box__right{
+max-width: 540px;
+width: 100%;
+}
+
+.main-right__title{
+padding-top: 20px;
+color: rgb(58, 56, 56);
+font-family: 'RB';
+font-size: 22px;
+line-height: 26px;
+text-align: left;
+}
+
+.main-right__text{
+padding-top: 30px;
+color: rgb(104, 104, 104);
+font-family: 'RR';
+font-size: 16px;
+line-height: 21px;
+text-align: left;
+}
+
+/*  **** Media start **** */
+@media (max-width: 1120px) {
+    .main-box{
+       flex-direction: column;
+       align-items: center;
+    }
+    
+}
+
+@media (max-width: 560px) {
+
+   .main-right__text{
+    font-size: 12px;
+}
+    
+}
+
+
+/*  **** Media end **** */
